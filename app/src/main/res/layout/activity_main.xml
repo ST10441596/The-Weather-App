@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTheWeatherApp"
+        android:layout_width="359dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:TextSize="50"
+        android:autoSizeMinTextSize="60dp"
+        android:fontFamily="@font/allerta"
+        android:text="The Weather App"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="309dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="458dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.702"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTheWeatherApp"
+        app:layout_constraintVertical_bias="0.083"
+        app:srcCompat="@drawable/r" />
+
+    <TextView
+        android:id="@+id/tvBonoloMathabela"
+        android:layout_width="173dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="315dp"
+        android:text="Name: Bonolo Mathabela"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvStudentNumber"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tvStudentNumber"
+        android:layout_width="262dp"
+        android:layout_height="41dp"
+        android:text="Student Number:ST10441596"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="448dp" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="107dp"
+        android:layout_height="55dp"
+        android:text="Exit"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="607dp" />
+
+    <Button
+        android:id="@+id/btnMainScreen"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Main Screen "
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="607dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
